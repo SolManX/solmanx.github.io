@@ -4,7 +4,11 @@ title: Some notation for sequences, sums and limits
 
 ## Basic set notation
 
-A **set** is just a way to group a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). Sets can be finite or infinite. In maths, they usually contain numeric values of some kind but more generally they can contain anything. For example, the set of all fruits.
+A **set** is just a way to group a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). 
+
+_Note: the ellipsis [\\\( \ldots \\\)] indicates the list continues indefinitely._
+
+Sets can be finite or infinite. In maths, they usually contain numeric values of some kind but more generally they can contain anything. For example, the set of all fruits.
 
 We read 
 
@@ -14,12 +18,13 @@ as \\\( x \\\) **is an element of**, or, **belongs to**, \\\( S \\\). For exampl
 
 <p class="indent">\( 5 \in \mathbf{N} \)</p>
 
-_Note: the ellipsis [\\\( \ldots \\\)] indicates the list continues indefinitely._
-
-
 ## Sequence notation
 
-A sequence is just a **set** of values, possibily infinite in length, that can be **indexed** sequentially, i.e. with integers. The most trivial case is the **natural numbers** themselves \(\mathbf{N} = \{1, 2, 3, 4, \ldots\}\). We can **index** the elements as \(x_1 = 1\), \(x_2 = 2\), \(x_3 = 3\), \(...\). The general pattern is simply \(x_n = n\).
+A sequence is just a **set** of values, possibily infinite in length, that can be **indexed** sequentially, i.e. with integers. The most trivial case is the **natural numbers** themselves, the elements of which can be indexed as 
+
+<p class="indent">\(x_1 = 1\), \(x_2 = 2\), \(x_3 = 3\), \(...\).</p>
+
+The general pattern is simply \(x_n = n\).
 
 A less trivial case is the even integers, \(\{2, 4, 6, 8, \ldots\}\). The pattern is \(x_n = 2n\) where \(n \in \mathbf{N}\). We can write this most succinctly as \(\{x_n = 2n: n \in \mathbf{N}\}\).
 
