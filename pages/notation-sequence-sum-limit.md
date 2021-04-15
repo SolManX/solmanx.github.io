@@ -6,7 +6,11 @@ title: Some notation for sequences, sums and limits
 
 A set is just a way to group a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). Sets can be finite or infinite. In maths, they usually contain numeric values of some kind but more generally they can contain anything. For example, the set of all fruits.
 
-<p class="indent">\(x \in S\) means \(x\) **is an element of**, or, **belongs to** \(S\). For example \(5 \in \mathbf{N}\)</p>
+We read 
+
+<p class="indent">\(x \in S\) </p>
+
+as \(x\) **is an element of**, or, **belongs to** \(S\). For example \(5 \in \mathbf{N}\)
 
 _Note: the ellipsis [\(\ldots\)] indicates the list continues indefinitely._
 
