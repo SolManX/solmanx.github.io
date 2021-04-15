@@ -36,7 +36,7 @@ which can be written succinctly as
 
 <p class="indent">\(\{x_n = 2n: n \in \mathbf{N}\}\).</p>
 
-_If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as_
+If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as_
 
 <p class="indent">\(\{x_n\}_{n \in \mathbf{N}}\)</p>
 
