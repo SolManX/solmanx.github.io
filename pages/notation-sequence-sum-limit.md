@@ -10,9 +10,9 @@ We read
 
 <p class="indent">\(x \in S\) </p>
 
-as \(x\) **is an element of**, or, **belongs to** \(S\). For example \(5 \in \mathbf{N}\)
+as \\\( x \\\) **is an element of**, or, **belongs to** \\\( S \\\). For example \\\( 5 \in \mathbf{N} \\\)
 
-_Note: the ellipsis [\(\ldots\)] indicates the list continues indefinitely._
+_Note: the ellipsis [\\\( \ldots \\\)] indicates the list continues indefinitely._
 
 
 ## Sequence notation
