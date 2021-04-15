@@ -24,11 +24,23 @@ A sequence is just a **set** of values, possibily infinite in length, that can b
 
 <p class="indent">\(x_1 = 1\), \(x_2 = 2\), \(x_3 = 3\), \(...\).</p>
 
-The general pattern is simply \(x_n = n\).
+The general pattern is simply
 
-A less trivial case is the even integers, \(\{2, 4, 6, 8, \ldots\}\). The pattern is \(x_n = 2n\) where \(n \in \mathbf{N}\). We can write this most succinctly as \(\{x_n = 2n: n \in \mathbf{N}\}\).
+<p class="indent">\(x_n = n\).</p>
 
-_If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as \(\{x_n\}_{n \in \mathbf{N}}\), but it's usually obvious anyway._
+A less trivial case is the even integers, 
+
+<p class="indent">\(x_1 = 2\), \(x_2 = 4\), \(x_3 = 6\), \(...\).</p>
+
+which can be written succinctly as 
+
+<p class="indent">\(\{x_n = 2n: n \in \mathbf{N}\}\).</p>
+
+_If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as_
+
+<p class="indent">\(\{x_n\}_{n \in \mathbf{N}}\)</p>
+
+_but it's usually obvious anyway._
 
 ### Examples ###
 - Odd integers: \(\{x_n = 2n-1: n \in \mathbf{N}\} = \{1, 3, 5, 7, \ldots\}\).
