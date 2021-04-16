@@ -66,6 +66,11 @@ Both are read as _the limit of the sequence \(x_n\), as \(n\) tends to infinity.
 
 _Note: it's implicit that, here, \(n\) is an integer. That's not always the case._
 
+We have to be careful to note that linits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol
+
+<p class="indent">\(\lim\limits_{n \to \infty} x_n = \infty \)</p>
+
+
 ## Summation notation
 Suppose we want to write down the sum, \(S\), of a well-defined set, or sequence, of values. For example, the sum of integers from 1 to 100. We could write this out as:
 
