@@ -78,15 +78,15 @@ The standard notation for this uses the capital of the Greek letter _summa_ and 
 
 <p class="indent">\(\sum\limits_{k = 1}^{100} k\).</p>
 
-_Note: I'm \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit, below. Anyway it's just a label for indexing._
+_Note: I'm \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
 
 What about the limit of a sum an of _infinite_ sequence, 
 
-<p class="indent">\(\lim\limits_{n \to \infty} \sum\limits_{k = 1}^{n} k\).</p>
+<p class="indent">\(\lim\limits_{n \to \infty} \sum\limits_{k = 1}^{n} x_k\).</p>
 
 This can be shortened to:
 
-<p class="indent">\(\sum\limits_{k = 1}^{\infty} k = \infty\).</p>
+<p class="indent">\(\sum\limits_{k = 1}^{\infty} x_k = \infty\).</p>
 
 Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \\\(2\\\) add up to \\\(1\\\):
 
@@ -102,22 +102,21 @@ Or, more generally:
 
 <p class="indent">\(X = \{x_k \in \{0, 1\}: k \le 100\} \).</p>
 
-_It's assumed that the coin is fair, so the probabilities of heads (\(1\)) and tails (\(0\)) are both 50%._
+_It's assumed that the coin is fair, so the probabilities of heads (\\\(1\\\)) and tails (\\\(0\\\)) are both 50%._
 
-Here,
-
-- \(X\) is the sequence of all the coin tosses
-- \(k\) is the index of the coin toss
-- \(x_k\) is the value of the coin toss
-- The number of coin tosses is \(100\)
 
 We could make it even more general by indicating an arbitrary number of coin tosses, \(n\) say:
 
 <p class="indent">\(X_n = \{x_k \in \{0, 1\}: k \le n\} \)</p>
 
-_Note: this is why I wanted to save \(n\) earlier._
+Here,
 
-To calculate the **expected value, \(E\)** of the sum of the sequence \(X_n\), we need to take the average. That is, we sum up the \(1\)'s and \(0\)'s and then divide the whole thing by the number of tosses:
+- \\\(X_n\\\) is the sequence of all the coin tosses
+- \\\(k\\\) is the index of the coin toss
+- \\\(x_k\\\) is the value of the coin toss
+- \\\(n\\\) is he number of coin tosses
+
+To calculate the **expected value, \\\(E\\\)** of the sum of the sequence \\\(X_n\\\), we need to take the average. That is, we sum up the \\\(1\\\)'s and \\\(0\\\)'s and then divide the whole thing by the number of tosses:
 
 <p class="indent">\( E(X_n) = \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
 
