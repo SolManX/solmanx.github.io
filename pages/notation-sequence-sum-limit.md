@@ -120,6 +120,6 @@ To calculate the **expected value, \\\(E\\\)** of the sum of the sequence \\\(X_
 
 <p class="indent">\( E(X_n) = \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
 
-Finally (phew!), we can ask what happens to this value as we make \\\(n\\\) larger and larger. In fact we can ask if the **limit** exists as \\\(n\\\) tends to infinity. And we know what this expected value is, namely \\\( \frac{1}{2}\\\). That is,
+Finally (phew!), we can ask what happens to this value as we make \\\(n\\\) larger and larger. In fact we can ask if the limit exists as \\\(n\\\) tends to infinity. And we know what this expected value is, namely \\\( \frac{1}{2}\\\). That is,
 
-<p class="indent">\( E = \lim\limits_{n \to \infty} E(X_n) = \lim\limits_{n \to \infty} \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
+<p class="indent">\( E = \lim\limits_{n \to \infty} E(X_n) = \lim\limits_{n \to \infty} \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \) = \frac{1}{2}.</p>
