@@ -75,20 +75,20 @@ The standard notation for this uses the capital of the Greek letter _summa_ and 
 
 <p class="indent">\(S = \sum\limits_{k = 1}^{100} k\).</p>
 
-Suppose we ant to consider an arbitrary upper index, \\\(n\\\) say, for the sum, we should add a subscript to \\\(S\\\):
+If we want to consider an arbitrary upper index, \\\(n\\\) say, for the sum, we can add a subscript to \\\(S\\\):
 
 <p class="indent">\(S_n = \sum\limits_{k = 1}^{n} k\).</p>
 
 
 _Note: I'm now using \\\(k\\\) as the index and \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
 
-What about the limit of a sum an of _infinite_ sequence, 
+What about the limit of a sum an of _infinite_ sequence? This is written as:
 
-<p class="indent">\(\lim\limits_{n \to \infty} \sum\limits_{k = 1}^{n} x_k\).</p>
+<p class="indent">\(S = \lim\limits_{n \to \infty} S_n = \lim\limits_{n \to \infty} \sum\limits_{k = 1}^{n} x_k\).</p>
 
 This can be shortened to:
 
-<p class="indent">\(\sum\limits_{k = 1}^{\infty} x_k = \infty\).</p>
+<p class="indent">\(S = \sum\limits_{k = 1}^{\infty} x_k = \infty\).</p>
 
 Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \\\(2\\\) add up to \\\(1\\\):
 
