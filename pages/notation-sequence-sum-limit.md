@@ -44,9 +44,9 @@ _but it's usually obvious anyway._
 
 ### Examples ###
 - Odd integers: \\\( \\\{x_n = 2n-1: n \in \mathbf{N} \\\} = \\\{1, 3, 5, 7, \ldots \\\} \\).
-- Squares: \(\{x_n = n^2: n \in \mathbf{N}\} = \{1, 4, 9, 16, \ldots\}\).
-- Inverses: \(\{x_n = \frac{1}{n}: n \in \mathbf{N}\} = \{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \ldots\}\).
-- Inverse powers of \(2\): \(\{x_n = \frac{1}{2^n}: n \in \mathbf{N}\} = \{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16} \ldots\}\).
+- Squares: \\\( \\\{x_n = n^2: n \in \mathbf{N} \\\} = \\\{1, 4, 9, 16, \ldots \\\} \\\).
+- Inverses: \\\( \\\{x_n = \frac{1}{n}: n \in \mathbf{N} \\\} = \\\{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \ldots \\\} \\\).
+- Inverse powers of \\\(2 \\\): \\\( \\\{x_n = \frac{1}{2^n}: n \in \mathbf{N} \\\} = \\\{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16} \ldots \\\} \\\).
 
 All of the above examples are of infinite length, but that's not a necessary condition. In your example of the law of large numbers, you had a finite sequence of random coin tosses. We could write:
 
