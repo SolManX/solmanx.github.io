@@ -52,21 +52,19 @@ All of the above examples are of infinite length, but that's not a necessary con
 
 <p class="indent">\(\{x_n: n \le K\}\) where \(x_n \in \{0, 1\}\) and \(K\) is some maximum value.</p>
 
-## Limit notation
+## Limits of sequences notation
 
 We want to find out what happens to a **sequence** as we increment it's **index** variable, usually to infinity. The notation for this is either:
 
-<p class="indent">\(\lim\limits_{n \to \infty} x_n\)</p>
+<p class="indent">\( L = \lim\limits_{n \to \infty} x_n\)</p>
 
 ... or ...
 
-<p class="indent">\(\lim x_n\) as \(n \to \infty\)</p>
+<p class="indent">\(x_n \to L\) as \(n \to \infty\)</p>
 
-Both are read as _the limit of the sequence \(x_n\), as \(n\) tends to infinity._
+Both are read as _the limit of the sequence \\\( x_n \\\), as \\( n \\\) tends to infinity and we are assuming the limit, \\\(L\\\), exists (is not infinite)._
 
-_Note: it's implicit that, here, \(n\) is an integer. That's not always the case._
-
-We have to be careful to note that linits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol
+Note that limits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol:
 
 <p class="indent">\(\lim\limits_{n \to \infty} x_n = \infty \)</p>
 
