@@ -2,7 +2,7 @@
 
 ### Basic set notation
 
-A **set** is just a way to group a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). 
+A **set** is just a way to collect a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). 
 
 _Note: the ellipsis [\\\( \ldots \\\)] indicates the list continues indefinitely._
 
@@ -18,7 +18,7 @@ as \\\( x \\\) **is an element of**, or, **belongs to**, \\\( S \\\). For exampl
 
 ### Sequence notation
 
-A sequence is just a **set** of values, possibily infinite in length, that can be **indexed** sequentially, i.e. with integers. The most trivial case is the **natural numbers** themselves, the elements of which can be indexed as 
+A sequence is just a **set** of values, possibly infinite in length, that can be **indexed** sequentially, i.e. with integers. The most trivial case is the **natural numbers** themselves, the elements of which can be indexed as 
 
 <p class="indent">\(x_1 = 1\), \(x_2 = 2\), \(x_3 = 3\), \(...\).</p>
 
@@ -111,7 +111,7 @@ Here,
 - \\\(X_n\\\) is the sequence of all the coin tosses
 - \\\(k\\\) is the index of the coin toss
 - \\\(x_k\\\) is the value of the coin toss (i.e. either (\\\(1\\\) or \\\(0\\\))
-- \\\(n\\\) is he number of coin tosses
+- \\\(n\\\) is the number of coin tosses
 
 To calculate the **expected value, \\\(E\\\)** of the sum of the sequence \\\(X_n\\\), we need to take the average. That is, we sum up the \\\(1\\\)'s and \\\(0\\\)'s and then divide the whole thing by the number of tosses:
 
