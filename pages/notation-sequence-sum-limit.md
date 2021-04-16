@@ -88,7 +88,7 @@ What about the limit of a sum an of _infinite_ sequence? This is written as:
 
 This can be shortened to:
 
-<p class="indent">\(S = \sum\limits_{k = 1}^{\infty} x_k = \infty\).</p>
+<p class="indent">\(S = \sum\limits_{k = 1}^{\infty} x_k\).</p>
 
 Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \\\(2\\\) add up to \\\(1\\\):
 
