@@ -46,7 +46,7 @@ If we want to emphasize that a particular **set** represents a **sequence**, we 
 - Inverses: \\\( \\\{x_n = \frac{1}{n}: n \in \mathbf{N} \\\} = \\\{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \ldots \\\} \\\).
 - Inverse powers of \\\(2 \\\): \\\( \\\{x_n = \frac{1}{2^n}: n \in \mathbf{N} \\\} = \\\{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16} \ldots \\\} \\\).
 
-All of the above examples are of infinite length, but that's not a necessary condition. In your example of the law of large numbers, you had a finite sequence of random coin tosses.
+All of the above examples are of infinite length, but that's not a necessary condition. In the example of the law of large numbers below, we start with a finite sequence of random coin tosses.
 
 ### Limits of sequences notation
 
