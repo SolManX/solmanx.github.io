@@ -34,11 +34,11 @@ which can be written succinctly as
 
 <p class="indent">\(\{x_n = 2n: n \in \mathbf{N}\}\).</p>
 
-If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as_
+If we want to emphasize that a particular **set** represents a **sequence**, we often see it written as ...
 
 <p class="indent">\(\{x_n\}_{n \in \mathbf{N}}\)</p>
 
-_but it's usually obvious anyway._
+... but it's usually obvious anyway.
 
 #### Examples
 - Odd integers: \\\( \\\{x_n = 2n-1: n \in \mathbf{N} \\\} = \\\{1, 3, 5, 7, \ldots \\\} \\).
@@ -46,9 +46,7 @@ _but it's usually obvious anyway._
 - Inverses: \\\( \\\{x_n = \frac{1}{n}: n \in \mathbf{N} \\\} = \\\{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \ldots \\\} \\\).
 - Inverse powers of \\\(2 \\\): \\\( \\\{x_n = \frac{1}{2^n}: n \in \mathbf{N} \\\} = \\\{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16} \ldots \\\} \\\).
 
-All of the above examples are of infinite length, but that's not a necessary condition. In your example of the law of large numbers, you had a finite sequence of random coin tosses. We could write:
-
-<p class="indent">\(\{x_n: n \le K\}\) where \(x_n \in \{0, 1\}\) and \(K\) is some maximum value.</p>
+All of the above examples are of infinite length, but that's not a necessary condition. In your example of the law of large numbers, you had a finite sequence of random coin tosses.
 
 ### Limits of sequences notation
 
@@ -60,7 +58,7 @@ We want to find out what happens to a **sequence** as we increment it's **index*
 
 <p class="indent">\(x_n \to L\) as \(n \to \infty\)</p>
 
-Both are read as _the sequence \\\( x_n \\\) tends to the limit,  \\\( L \\\) as \\( n \\\) tends to infinity and we are assuming the limit, \\\( L \\\), exists (is not infinite)._
+Both are read as _the sequence \\\( x_n \\\) tends to the limit, \\\( L \\\), as \\( n \\\) tends to infinity and we are assuming the limit, \\\( L \\\), exists (is not infinite)._
 
 Note that limits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol:
 
@@ -69,7 +67,7 @@ Note that limits do not always exist. For example, there is no limit to the even
 
 ### Summation notation
 
-Suppose we want to write down the sum, \(S\), of a well-defined set, or sequence, of values. For example, the sum of integers from 1 to 100. We could write this out as:
+Suppose we want to write down the sum, \\\(S\\\), of a well-defined sequence of values. For example, the sum of integers from 1 to 100. We could write this out as:
 
 <p class="indent">\(1 + 2 + 3 + 4 + \ldots + 100\).</p>
 
@@ -77,7 +75,7 @@ The standard notation for this uses the capital of the Greek letter _summa_ and 
 
 <p class="indent">\(\sum\limits_{k = 1}^{100} k\).</p>
 
-_Note: I'm \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
+_Note: I'm now using \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
 
 What about the limit of a sum an of _infinite_ sequence, 
 
