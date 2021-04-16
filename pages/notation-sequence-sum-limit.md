@@ -88,7 +88,7 @@ This can be shortened to:
 
 <p class="indent">\(\sum\limits_{k = 1}^{\infty} k = \infty\).</p>
 
-Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \(2\) add up to \(1\):
+Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \\\(2\\\) add up to \\\(1\\\):
 
 <p class="indent">\(\sum\limits_{k = 1}^{\infty} \frac{1}{2^k} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots = 1\).</p>
 
