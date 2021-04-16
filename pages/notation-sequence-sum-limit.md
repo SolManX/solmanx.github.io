@@ -60,7 +60,7 @@ We want to find out what happens to a **sequence** as we increment it's **index*
 
 Both are read as _the sequence \\\( x_n \\\) tends to the limit, \\\( L \\\), as \\( n \\\) tends to infinity and we are assuming the limit, \\\( L \\\), exists (is not infinite)._
 
-Note that limits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol:
+Note that limits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the infinity symbol:
 
 <p class="indent">\(\lim\limits_{n \to \infty} x_n = \infty \)</p>
 
@@ -69,13 +69,18 @@ Note that limits do not always exist. For example, there is no limit to the even
 
 Suppose we want to write down the sum, \\\(S\\\), of a well-defined sequence of values. For example, the sum of integers from 1 to 100. We could write this out as:
 
-<p class="indent">\(1 + 2 + 3 + 4 + \ldots + 100\).</p>
+<p class="indent">\(S = 1 + 2 + 3 + 4 + \ldots + 100\).</p>
 
 The standard notation for this uses the capital of the Greek letter _summa_ and is written:
 
-<p class="indent">\(\sum\limits_{k = 1}^{100} k\).</p>
+<p class="indent">\(S = \sum\limits_{k = 1}^{100} k\).</p>
 
-_Note: I'm now using \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
+Suppose we ant to consider an arbitrary upper index, \\\(n\\\) say, for the sum, we should add a subscript to \\\(S\\\):
+
+<p class="indent">\(S_n = \sum\limits_{k = 1}^{n} k\).</p>
+
+
+_Note: I'm now using \\\(k\\\) as the index and \\\(n\\\) for the limit below. Anyway it's just a label for indexing._
 
 What about the limit of a sum an of _infinite_ sequence, 
 
