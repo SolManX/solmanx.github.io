@@ -94,7 +94,7 @@ Note it is possible to have a finite result of an infinite sum. For example, the
 
 ### Law of large numbers
 
-Suppose we have a sequence of random coin tosses, \(X\), which we could write as:
+Suppose we have a sequence of random coin tosses, \\\(X\\\), which we could write as:
 
 <p class="indent">\(X = \{0, 1, 1, 1, 0, 0, 1, \ldots\, 1, 0\}\).</p>
 
@@ -105,7 +105,7 @@ Or, more generally:
 _It's assumed that the coin is fair, so the probabilities of heads (\\\(1\\\)) and tails (\\\(0\\\)) are both 50%._
 
 
-We could make it even more general by indicating an arbitrary number of coin tosses, \(n\) say:
+We could make it even more general by indicating an arbitrary number of coin tosses, \\\(n\\\) say:
 
 <p class="indent">\(X_n = \{x_k \in \{0, 1\}: k \le n\} \)</p>
 
@@ -113,15 +113,13 @@ Here,
 
 - \\\(X_n\\\) is the sequence of all the coin tosses
 - \\\(k\\\) is the index of the coin toss
-- \\\(x_k\\\) is the value of the coin toss
+- \\\(x_k\\\) is the value of the coin toss (i.e. either (\\\(1\\\) or \\\(0\\\))
 - \\\(n\\\) is he number of coin tosses
 
 To calculate the **expected value, \\\(E\\\)** of the sum of the sequence \\\(X_n\\\), we need to take the average. That is, we sum up the \\\(1\\\)'s and \\\(0\\\)'s and then divide the whole thing by the number of tosses:
 
 <p class="indent">\( E(X_n) = \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
 
-Finally (phew!), we can ask what happens to this value as we make \(n\) larger and larger. In fact we can ask if the **limit** exists as \(n\) tends to infinity:
+Finally (phew!), we can ask what happens to this value as we make \\\(n\\\) larger and larger. In fact we can ask if the **limit** exists as \\\(n\\\) tends to infinity. And we know what this expected value is, namely \\\( \frac{1}{2}\\\). That is,
 
-<p class="indent">\( E(X) = \lim\limits_{n \to \infty} \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
-
-_Note: I've dropped the \(n\) from \(X\). I could have used \(X_\infty\) to be more explicit._
+<p class="indent">\( E = \lim\limits_{n \to \infty} E(X_n) = \lim\limits_{n \to \infty} \frac{1}{n} \sum\limits_{k = 1}^{n} x_k \).</p>
