@@ -62,7 +62,7 @@ We want to find out what happens to a **sequence** as we increment it's **index*
 
 <p class="indent">\(x_n \to L\) as \(n \to \infty\)</p>
 
-Both are read as _the limit of the sequence \\\( x_n \\\), as \\( n \\\) tends to infinity and we are assuming the limit, \\\(L\\\), exists (is not infinite)._
+Both are read as _the sequence \\\( x_n \\\) tends to the limit,  \\\( L \\\) as \\( n \\\) tends to infinity and we are assuming the limit, \\\( L \\\), exists (is not infinite)._
 
 Note that limits do not always exist. For example, there is no limit to the even numbers. We can indicate this using the the infinity symbol:
 
@@ -78,13 +78,17 @@ The standard notation for this uses the capital of the Greek letter _summa_ and 
 
 <p class="indent">\(\sum\limits_{k = 1}^{100} k\).</p>
 
-_Note: I've used \(k\) here instead of as I'll want to use \(n\) later for something else. Anyway it's just a label for indexing._
+_Note: I'm \\\(k\\\) in the sum of as I want to use \\\(n\\\) for the limit, below. Anyway it's just a label for indexing._
 
-We have to be a little more careful when we're talking about the limit of a sum an of _infinite_ sequence, as it's not always clear that any such limit exists, and when no limit does exist we indicate this using the infinity symbol. For example,
+What about the limit of a sum an of _infinite_ sequence, 
+
+<p class="indent">\(\lim\limits_{n \to \infty} \sum\limits_{k = 1}^{n} k\).</p>
+
+This can be shortened to:
 
 <p class="indent">\(\sum\limits_{k = 1}^{\infty} k = \infty\).</p>
 
-But it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \(2\) add up to \(1\):
+Note it is possible to have a finite result of an infinite sum. For example, the sum of the inverse powers of \(2\) add up to \(1\):
 
 <p class="indent">\(\sum\limits_{k = 1}^{\infty} \frac{1}{2^k} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots = 1\).</p>
 
