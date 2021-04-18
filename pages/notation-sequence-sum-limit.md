@@ -2,9 +2,7 @@
 title: Notation for sequences, sums and limits
 ---
 
-## Notation for sequences, sums and limits
-
-### Basic set notation
+## Basic set notation
 
 A **set** is just a way to collect a number of elements together. For example, the set of all positive integers, called the **natural numbers**, is \\\(\mathbf{N} = \\\{ 1, 2, 3, 4, \ldots \\\} \\\). 
 
@@ -20,7 +18,7 @@ as \\\( x \\\) **is an element of**, or, **belongs to**, \\\( S \\\). For exampl
 
 <p class="indent">\( 5 \in \mathbf{N} \)</p>
 
-### Sequence notation
+## Sequence notation
 
 A sequence is just a **set** of values, possibly infinite in length, that can be **indexed** sequentially, i.e. with integers. The most trivial case is the **natural numbers** themselves, the elements of which can be indexed as 
 
@@ -44,7 +42,7 @@ If we want to emphasize that a particular **set** represents a **sequence**, we 
 
 ... but it's usually obvious anyway.
 
-#### Examples
+### Examples
 - Odd integers: \\\( \\\{x_n = 2n-1: n \in \mathbf{N} \\\} = \\\{1, 3, 5, 7, \ldots \\\} \\).
 - Squares: \\\( \\\{x_n = n^2: n \in \mathbf{N} \\\} = \\\{1, 4, 9, 16, \ldots \\\} \\\).
 - Inverses: \\\( \\\{x_n = \frac{1}{n}: n \in \mathbf{N} \\\} = \\\{1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \ldots \\\} \\\).
@@ -52,7 +50,7 @@ If we want to emphasize that a particular **set** represents a **sequence**, we 
 
 All of the above examples are of infinite length, but that's not a necessary condition. In the example of the law of large numbers below, we start with a finite sequence of random coin tosses.
 
-### Limits of sequences notation
+## Limits of sequences notation
 
 We want to find out what happens to a **sequence** as we increment it's **index** variable, usually to infinity. The notation for this is either:
 
@@ -69,7 +67,7 @@ Note that limits do not always exist. For example, there is no limit to the even
 <p class="indent">\(\lim\limits_{n \to \infty} x_n = \infty \)</p>
 
 
-### Summation notation
+## Summation notation
 
 Suppose we want to write down the sum, \\\(S\\\), of a well-defined sequence of values. For example, the sum of integers from 1 to 100. We could write this out as:
 
@@ -98,7 +96,7 @@ Note it is possible to have a finite result of an infinite sum. For example, the
 
 <p class="indent">\(\sum\limits_{k = 1}^{\infty} \frac{1}{2^k} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots = 1\).</p>
 
-#### Example: Law of large numbers
+### Example: Law of large numbers
 
 Suppose we have a sequence of random coin tosses, \\\(X\\\), which we could write as:
 
