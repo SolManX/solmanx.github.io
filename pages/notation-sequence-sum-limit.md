@@ -1,3 +1,7 @@
+---
+title: Notation for sequences, sums and limits
+---
+
 ## Notation for sequences, sums and limits
 
 ### Basic set notation
